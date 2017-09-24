@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-size: 45px;
+}
+
+h3{
+  font-size: 22px;
+}
+
+hr{
+  width: 100px;
+}
+p{
+  letter-spacing: 1px;
+ font-weight: 200;
+ font-size: 16px;
+}
+
+a, a:hover, a:active{
+  text-decoration: none;
+}
+.padv-100{
+  padding: 100px 0;
+}
+.padv-40 {
+  padding: 40px 0;
+}
+.padv-20 {
+  padding: 20px 0;
+}
+.bg-shade {
+  min-height: 0;
+  border: 1px solid #e0e5e6;
+  background-color: #f8f8fb;
+}
+.bg-dark{
+  background-color: #0b1721;
+  color: #fff;
+}
+
+.bg-pattern{
+    background: url("../img/patternbg.svg");
+    background-color: #0b1721;
+    background-image: url("../img/patternbg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0b1721;
+    color: #fff;
+}
+
+.bg-blue {
+  background: #1e1a3a;
+  color: #fff;
+}
+
+#home-header {
+  height: 800px;
+  background: #0b1721;
+}
+.header-content{
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+.header-content h1{
+  font-weight: 100;
+}
+.header-nav ul a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.4em 0;
+    letter-spacing: .1em;
+    -webkit-transition: color .15s ease-out;
+    transition: color .15s ease-out;
+}
+.header-nav ul li {
+    display: inline-block;
+    margin: 0 3em 0 3em;
+}
+/*.header-content h1{
+  font-size: 60px;
+  font-weight: 100;
+}*/
+.header-content p{
+  font-size: 20px;
+  font-weight: 200;
+}
+.nav-style {
+  position: fixed;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  width: 100%;
+  z-index: 1;
+}
+canvas {
+  z-index: -1;
+  position: absolute;
+  background-color: #0b1f2c;
+}
+.navigation-container {
+    float: right;
+    margin-right: 10px;
+    margin-top: 18px;
+}
+.navigation-container ul li {
+    float: left;
+    list-style: none;
+}
+.navigation-container ul li a{
+    color: #fff;
+    font-size: 16px;
+    min-width: 100px;
+    text-decoration: none;
+}
+
+.logos-layout {
+  background: #565264;
+}
+.logos-layout h3{
+  color: #fff;
+  font-weight: 200;
+}
+.logos-layout img {
+  display: inline-block;
+  max-height: 36px;
+  max-width: 100%;
+  width: auto;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+}
+.section-title-default{
+  color: #374252;
+}
+.section-title-white {
+  color: #fff;
+}
+.special-text {
+  text-align: center;
+}
+
+.qu-btn-hero {
+    font-size: 18px;
+    min-width: 140px;
+    margin-right: 7px;
+    margin-left: 0;
+    padding: 0 30px;
+    color: #004e92;
+    background-color: #fff;
+}
+.qu-btn-lg {
+    height: 50px;
+    font-size: 18px;
+    line-height: 36px;
+    border-radius: 3px;
+}
+
+.qu-btn-hero:hover {
+    color: #fff;
+    background-color:  rgba(0,0,0,0);
+    border: 1px solid #fff;
+}
+.qu-btn {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    border: 1px solid transparent;
+    padding: 6px 10px;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+.app-feat{
+  padding: 10px 10px 10px 40px;
+  transition: 0.3s ease-in;
+  text-align: center;
+}
+.app-feat img{
+      width: 80px;
+}
+
+.app-feature {
+  padding: 40px;
+  transition: 0.3s ease-in;
+  height: 360px;
+  text-align: center;
+}
+.app-feature img{
+  width: 80px;
+  height: 80px;
+}
+.app-feature p {
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.feature p {
+  /*font-size: 20px;*/
+  font-weight: 200;
+  padding-top: 30px;
+}
+.icon-list {
+  padding: 10px;
+  height: 140px;
+  width: 140px;
+
+}
+.icon-list .icon {
+  font-size: 30px;
+  text-align: center;
+}
+.icon-list>.text {
+  text-align: center;
+}
+
+.info-list{
+  list-style: none;
+}
+.info-list h2{
+ font-weight: 200;
+
+}
+.question hr{
+  visibility: hidden;
+}
+
+.footer-nav{
+  background-color: #0b1721;
+  color: #fff;
+}
+
+.footer-nav .social-icon{
+  font-size: 35px;
+  color: #fff;
+}
+.footer-nav  .footer-subtitle{
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.footer-nav .footer-love{
+  font-size: 30px;
+}
+
+.footer-nav ul li {
+    float: left;
+    list-style: none;
+}
+.footer-nav ul li a{
+    color: #1e36;
+    font-size: 16px;
+    min-width: 100px;
+    text-decoration: none;
+}
