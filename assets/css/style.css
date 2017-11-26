@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700');
+
+html, body {
+  position:relative;
+  overflow-x:hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -187,6 +194,9 @@ canvas {
     -ms-touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
+}
+.qu-btn i{
+  margin-right: 15px;
 }
 .app-feat{
   padding: 10px 10px 10px 40px;
